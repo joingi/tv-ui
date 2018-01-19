@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Prototype</title>
+        <link rel="stylesheet" href="styles/reset.css">
+        <link rel="stylesheet" href="styles/stylesheet.css">
+    </head>
+    <body>
+
+        <div id="appwrapper">
+
+            <div id="prototype">
+
+                <div id="description">
+                    <div id="title-container">
+                        <h3 id="description-eyebrow"></h3>
+                        <h1 id="description-title"></h1>
+                        <h2 id="description-summary"></h2>
+                    </div>
+                </div>
+
+                <div id="prototype-container">
+                    <div id="prototype-row" data-selection="0">
+                        <!-- The carousel will be inserted here -->
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="toggle-safe-area">
+                Press <div class="button-circle">Y</div> button or <span>Y</span> key to toggle safe area
+            </div>
+
+            <div id="safe-area" class="hide"></div>
+
+        </div>
+
+        <script src="js/libraries/Controller.min.js"></script>
+        <script src="js/libraries/Controller.layouts.min.js"></script>
+        <script src="js/data.js"></script>
+        <script src="js/app.js"></script>
+
+    </body>
+</html>
