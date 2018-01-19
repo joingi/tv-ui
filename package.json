@@ -1,0 +1,19 @@
+{
+  "name": "tv-ui",
+  "version": "1.0.0",
+  "description": "WebDev TV UI Experiment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joingi/tv-ui.git"
+  },
+  "author": "Johann Ingi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joingi/tv-ui/issues"
+  },
+  "homepage": "https://github.com/joingi/tv-ui#readme"
+}
